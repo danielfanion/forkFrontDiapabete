@@ -1,1 +1,3 @@
 ./node_modules
+# Pour éviter que ça revienne
+node_modules/.cache/
