@@ -1,0 +1,57 @@
+:root {
+  --color-primary-blue: #26BDB4;
+
+  --color-primary-pink: #F0A4C7;
+  --color-secondary-pink: #F05178;
+}
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*{
+  z-index: 10;
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  font-weight: 500;
+  font-size: 16px;
+}
+
+section{
+  position: relative;
+  height: 100vh;
+}
+
+strong{
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--color-primary-pink);
+}
+
+h2{
+  font-size: 40px; 
+  font-weight: 700;
+}
+
+h4{
+  font-size: 32px;
+  font-weight: 700;
+}
+
+p{
+  font-size: 16px;
+  text-align: justify;
+}
+
+p strong{
+  font-size: 16px;
+  color: var(--color-primary-blue);
+}
+
+img{
+  width: 100%; 
+  height: 100%;
+  object-fit: contain;
+}

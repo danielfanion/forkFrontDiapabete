@@ -1,0 +1,35 @@
+@import './base.css';
+@import './styles/header.css';
+@import './styles/home.css';
+
+.hero{
+    width: max-content;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-60%);
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.hero h2{
+    font-family: Inter;
+    font-size: 128px;
+    font-weight: 800;
+    line-height: normal;
+    background: linear-gradient(90deg, #cf5c78, #00d3c1, #cf5c78);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero h3{
+    font-size: 24px;
+    font-weight: 400;
+}

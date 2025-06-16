@@ -1,0 +1,17 @@
+button{
+    background-color: white;
+    border: 2px solid var(--color-secondary-pink);
+    color: var(--color-secondary-pink);
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 24px 8px 24px;
+    border-radius: 100px;
+    width: 75%;
+}
+
+button:hover{
+    background-color: var(--color-secondary-pink);
+    color: white;
+    cursor: pointer;
+}
